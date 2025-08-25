@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miami Vice Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <title>Engineering Portfolio</title>
 </head>
 <body>
-  <!-- NAVIGATION -->
+
+  <!-- Header -->
   <header>
-    <nav class="navbar">
-      <div class="logo">MyPortfolio</div>
-      <ul class="nav-links">
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -20,53 +21,95 @@
     </nav>
   </header>
 
-  <!-- HERO -->
+  <!-- Hero Section -->
   <section id="hero">
     <div class="hero-content">
-      <h1>Design & Innovation</h1>
-      <p>Modern engineering-inspired portfolio with Miami Vice vibes.</p>
-      <a href="#projects" class="cta-btn"><span>See My Work</span></a>
+      <h1>Welcome to My Professional Portfolio</h1>
+      <p>Innovative engineering solutions showcased through practical projects.</p>
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- About Me -->
   <section id="about">
     <h2>About Me</h2>
-    <div class="about-boxes">
+    <p>I am a passionate engineering student with experience in mechanical design, robotics, and problem-solving. I enjoy transforming ideas into functional projects and continuously learning advanced technical skills.</p>
+
+    <!-- Clubs -->
+    <h3>Club Involvement</h3>
+    <div class="about-grid">
       <div class="about-card">
-        <h3>Clubs</h3>
-        <p>Involved in leadership clubs fostering teamwork and creativity.</p>
-      </div>
-      <div class="about-card sport-card">
-        <h3>Sports</h3>
-        <p>Football and Lacrosse participation—teamwork, discipline, growth.</p>
+        <h4>STEM Club</h4>
+        <p>Participated in robotics competitions, mentored younger students, and organized tech workshops.</p>
       </div>
       <div class="about-card">
-        <h3>Service</h3>
-        <p>Volunteer work with community organizations and outreach programs.</p>
+        <h4>Design & Innovation Club</h4>
+        <p>Planned school-wide innovation projects and collaborated with peers to prototype creative solutions.</p>
+      </div>
+    </div>
+
+    <!-- Sports -->
+    <h3>Sports Involvement</h3>
+    <div class="about-grid">
+      <div class="about-card sports-card">
+        <h4>Football Team</h4>
+        <p>Played varsity football for 3 years, demonstrating teamwork, leadership, and dedication.</p>
+        <div class="football-icon">🏈</div>
+      </div>
+      <div class="about-card sports-card">
+        <h4>Lacrosse Team</h4>
+        <p>Contributed as a reliable team member, helping develop strategies and supporting teammates.</p>
+        <div class="football-icon">🏈</div>
+      </div>
+    </div>
+
+    <!-- Service -->
+    <h3>Service</h3>
+    <div class="about-grid">
+      <div class="about-card">
+        <h4>Blue Missions</h4>
+        <p>Participated in community service projects, helping local communities with education and support.</p>
+      </div>
+      <div class="about-card">
+        <h4>Retreat Planning</h4>
+        <p>Assisted in organizing spiritual retreats for peers, handling logistics and ensuring a smooth experience.</p>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">Project 1</div>
-      <div class="project-card">Project 2</div>
-      <div class="project-card">Project 3</div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Mechanical Arm Prototype</h3>
+        <p>Designed and built a precise mechanical arm using CAD and 3D-printed components.</p>
+      </div>
+      <div class="project-card">
+        <h3>Energy-efficient Turbine</h3>
+        <p>Developed a CAD model for turbine blades focused on maximum efficiency and durability.</p>
+      </div>
+      <div class="project-card">
+        <h3>Robotics Automation</h3>
+        <p>Implemented sensors and automation logic in a collaborative robotics project.</p>
+      </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
-    <button><span>Send Message</span></button>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button><span>Send Message</span></button>
+    </form>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
-    <p>© 2025 MyPortfolio. Built with style.</p>
+    <p>&copy; 2025 My Portfolio</p>
   </footer>
+
 </body>
 </html>
