@@ -1,0 +1,137 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #f2f2f2;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* ===== NAVBAR ===== */
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00eaff; /* Miami Vice cyan */
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  margin: 0 1rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #ff6ec7, #00eaff);
+  transition: width 0.3s ease;
+}
+.nav-links a:hover {
+  color: #00eaff;
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(145deg, #0d0d0d, #1f1f1f);
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ff6ec7;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #bfbfbf;
+}
+
+/* ===== CONTENT SECTIONS ===== */
+.content-section {
+  padding: 4rem 10%;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00eaff;
+}
+.content-section p, .content-section ul {
+  color: #ccc;
+}
+.content-section ul {
+  margin-left: 1.5rem;
+  list-style: disc;
+}
+
+/* ===== SPORTS FOOTBALL ANIMATION ===== */
+.football-animation {
+  width: 60px;
+  height: 30px;
+  margin-top: 1.5rem;
+  background: brown;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.football-animation::before,
+.football-animation::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 2px;
+  height: 20px;
+  background: white;
+  transform: translateY(-50%);
+}
+.football-animation::before {
+  left: 15px;
+}
+.football-animation::after {
+  right: 15px;
+}
+.sports-section:hover .football-animation {
+  transform: translateX(40px) rotate(25deg);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #0d0d0d;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #777;
+}
