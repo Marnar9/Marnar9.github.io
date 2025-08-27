@@ -3,113 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcel Narino | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <title>Engineering Portfolio</title>
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#senior-design">Senior Design</a></li>
+      <li><a href="#mini-fab">Mini Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Header -->
-  <header>
-    <div class="logo">My Portfolio</div>
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="hero">
+  <!-- Landing Page -->
+  <section id="hero" class="hero">
     <div class="hero-content">
-      <h1>Welcome to My Professional Portfolio</h1>
-      <p>Innovative engineering solutions showcased through practical projects.</p>
+      <h1>Marcel Narino</h1>
+      <p>Engineering Student | Innovator | Designer</p>
     </div>
   </section>
 
   <!-- About Me -->
-  <section id="about">
+  <section id="about" class="content-section">
     <h2>About Me</h2>
-    <p>I am a passionate engineering student with experience in mechanical design, robotics, and problem-solving. I enjoy transforming ideas into functional projects and continuously learning advanced technical skills.</p>
+    <p>Hello! My name is Marcel Narino. I am passionate about engineering, design, and applying innovation to real-world challenges. 
+       This site highlights my projects, service, and experiences.</p>
+  </section>
 
-    <!-- Clubs -->
-    <h3>Club Involvement</h3>
-    <div class="about-grid">
-      <div class="about-card">
-        <h4>STEM Club</h4>
-        <p>Participated in robotics competitions, mentored younger students, and organized tech workshops.</p>
-      </div>
-      <div class="about-card">
-        <h4>Design & Innovation Club</h4>
-        <p>Planned school-wide innovation projects and collaborated with peers to prototype creative solutions.</p>
-      </div>
-    </div>
+<!-- Senior Design Project -->
+<section id="senior-design" class="content-section">
+  <h2>Senior Design Project</h2>
 
-    <!-- Sports -->
-    <h3>Sports Involvement</h3>
-    <div class="about-grid">
-      <div class="about-card sports-card">
-        <h4>Football Team</h4>
-        <p>Played varsity football for 3 years, demonstrating teamwork, leadership, and dedication.</p>
-        <div class="football-icon">🏈</div>
-      </div>
-      <div class="about-card sports-card">
-        <h4>Lacrosse Team</h4>
-        <p>Contributed as a reliable team member, helping develop strategies and supporting teammates.</p>
-        <div class="football-icon">🏈</div>
-      </div>
-    </div>
+  <a href="problem-statement.html" class="activity-bar">
+    <h3>Problem Statement</h3>
+    <p>Details about the problem being addressed in the design project.</p>
+  </a>
 
-    <!-- Service -->
+  <a href="pdr.html" class="activity-bar">
+    <h3>Preliminary Design Review</h3>
+    <p>Content about the initial design process and review findings.</p>
+  </a>
+
+  <a href="cdr.html" class="activity-bar">
+    <h3>Critical Design Review</h3>
+    <p>Information about the deeper technical validation of the design.</p>
+  </a>
+
+  <a href="final-presentation.html" class="activity-bar">
+    <h3>Final Presentation</h3>
+    <p>Summary of final presentation results and accomplishments.</p>
+  </a>
+</section>
+
+<!-- Mini Fabrication Projects -->
+<section id="mini-fab" class="content-section">
+  <h2>Mini Fabrication Projects</h2>
+
+  <a href="computer-cutting.html" class="activity-bar">
+    <h3>Computer Controlled Cutting</h3>
+    <p>Details about cutting-based fabrication projects.</p>
+  </a>
+
+  <a href="embedded-programming.html" class="activity-bar">
+    <h3>Embedded Programming</h3>
+    <p>Notes on programming embedded systems for prototypes.</p>
+  </a>
+
+  <a href="3d-scanning.html" class="activity-bar">
+    <h3>3D Scanning</h3>
+    <p>Work with 3D scanning technologies.</p>
+  </a>
+
+  <a href="machining.html" class="activity-bar">
+    <h3>Computer Controlled Machining</h3>
+    <p>Machining project experience.</p>
+  </a>
+
+  <a href="electronics.html" class="activity-bar">
+    <h3>Electronics Production</h3>
+    <p>Electronics fabrication and assembly experience.</p>
+  </a>
+
+  <a href="molding-casting.html" class="activity-bar">
+    <h3>Molding and Casting</h3>
+    <p>Projects involving molding and casting processes.</p>
+  </a>
+
+  <a href="wildcard.html" class="activity-bar">
+    <h3>Wildcard</h3>
+    <p>Creative project that falls outside the main categories.</p>
+  </a>
+</section>
+
+<!-- Activities & Involvement -->
+<section id="activities" class="content-section">
+  <h2>Activities & Involvement</h2>
+  
+  <!-- Sports Bar -->
+  <a href="sports.html" class="activity-bar">
+    <h3>Sports</h3>
+    <p>Football, Basketball, Track, or any sports participation details.</p>
+  </a>
+
+  <!-- Service Bar -->
+  <a href="service.html" class="activity-bar">
     <h3>Service</h3>
-    <div class="about-grid">
-      <div class="about-card">
-        <h4>Blue Missions</h4>
-        <p>Participated in community service projects, helping local communities with education and support.</p>
-      </div>
-      <div class="about-card">
-        <h4>Retreat Planning</h4>
-        <p>Assisted in organizing spiritual retreats for peers, handling logistics and ensuring a smooth experience.</p>
-      </div>
-    </div>
-  </section>
+    <p>Volunteer work, community service projects, or leadership roles.</p>
+  </a>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Mechanical Arm Prototype</h3>
-        <p>Designed and built a precise mechanical arm using CAD and 3D-printed components.</p>
-      </div>
-      <div class="project-card">
-        <h3>Energy-efficient Turbine</h3>
-        <p>Developed a CAD model for turbine blades focused on maximum efficiency and durability.</p>
-      </div>
-      <div class="project-card">
-        <h3>Robotics Automation</h3>
-        <p>Implemented sensors and automation logic in a collaborative robotics project.</p>
-      </div>
-    </div>
-  </section>
+  <!-- Other Activities Bar -->
+  <a href="activities.html" class="activity-bar">
+    <h3>Other Activities</h3>
+    <p>Clubs, competitions, or other extracurricular involvement.</p>
+  </a>
+</section>
 
   <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button><span>Send Message</span></button>
-    </form>
+  <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:marnar031@gmail.com">marnar031@gmail.com</a></p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 My Portfolio</p>
+    <p>© 2025 Marcel Narino. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
