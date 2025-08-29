@@ -273,3 +273,52 @@ footer {
   font-size: 1rem;
   opacity: 0.85;
 }
+
+/* About Me link styling */
+.about-link {
+  text-decoration: none; /* remove underline */
+  color: #ffffff;        /* match site text color */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-link:hover {
+  text-decoration: underline; /* optional subtle hover */
+  color: #00f7ff;             /* Miami Vice accent color */
+}
+/* About Me two-column layout */
+.about-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Left column */
+.about-left {
+  flex: 2; /* bigger column for text */
+  min-width: 250px;
+}
+
+/* Right column */
+.about-right {
+  flex: 1; /* smaller column for quick facts */
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Quick Facts list */
+.about-right ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+.about-right li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
