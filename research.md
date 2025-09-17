@@ -11,7 +11,14 @@ A construction site is like a living being. Evrything is moving on its own for a
 [Analysis of Safety Risks on the Construction Site](https://iopscience.iop.org/article/10.1088/1755-1315/222/1/012012/meta)
     - The saftey risks of construction. 
         - 19.5% of deaths froom 2000-2012 where do to consrtuction site related injuries 
+
 [Lessons Learned from Construction Site Layout Planning Practices](https://www.researchgate.net/publication/378479151_Lessons_Learned_from_Construction_Site_Layout_Planning_Practices?)
     - The importance that siteplaning needs in todays world
         - Current sites have multiple pathways that are blocked off and difficult to navigate
         - These issues cause people to ignore saftey regulations and increase the concerns of safety
+
+[19 Pros And Cons Of Drone Delivery](https://prospluscons.com/pros-and-cons-of-drone-delivery/)
+    - More eco-friendly (electric, low emissions)
+    - Can reach remote or hard-to-access areas
+    - Cheaper for small/light packages
+    - Cuts labor costs 
